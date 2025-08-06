@@ -1,0 +1,134 @@
+/* Custom colors and sizing for the chatbot specifically (chat button and chat container)*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    background-color: #bb128fbf;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: none;
+    color: black;
+    width: 30px;
+    height: 120px;
+    border-radius: 0;
+    cursor: pointer;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.fa-regular {
+    color: black;
+    margin-right: 5px;
+}
+
+.chat-container {
+    width: 400px;
+    background: white;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 34px;
+}
+
+.hidden {
+    display: none;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+}
+
+.bot {
+    background-color: #0000001f; /* Default background for bubbles */
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    padding: 10px 15px;
+    max-width: 70%;
+    margin-bottom: 10px;
+    color: #333;
+    
+}
+
+.user {
+    max-width: 80%;
+    padding: 10px 14px;
+    border-radius: 18px;
+    line-height: 1.4;
+    display: inline-block;
+    background-color: #bb128f80;
+    color: black;
+    border-bottom-right-radius: 0;
+}
+
+.message-wrapper {
+    display: flex;
+}
+
+.user-align {
+    justify-content: flex-end;
+}
+
+.bot-align {
+    justify-content: flex-start;
+}
+
+.input-row {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.user-input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.send-button {
+    padding: 8px 12px;
+    background-color: #bb128f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/* Very minimal styling for the header (included to make the website a bit
+more bearable to look at) */
+
+h1 {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+header {
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
