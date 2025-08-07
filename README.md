@@ -17,6 +17,7 @@ No additional installation required as creator has existing GitHub account.
 **Audience setup:**
 - No setup or installation required.
 - Live link to visit the page via GitHub Pages available [here](https://aaliyahjv.github.io/eGain-swe "Sharp Point Coffee").
+- Try the valid order numbers “123456”, “789012”, and “345678”, which have different delivery dates, thus, showing different responses from the chatbot when tracking a lost order.
 
 ## Brief explanation of your approach
 **Goal:** Implement a chatbot that addresses users' problems quickly and easily in a more natural language.
