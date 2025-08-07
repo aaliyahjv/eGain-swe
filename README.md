@@ -10,13 +10,13 @@ This repository contains my solution to the eGain SWE Take-Home Assignment. \
 2. Create eGain folder on desktop.
 3. Git clone eGain repository into eGain folder.
 4. Create HTML, CSS, and JavaScript files, and image folder.
-5. Begin coding and adding relevant images. Save, add, commit, and push every so often. \
+5. Begin coding and adding relevant images. Save, add, commit, and push every so often.
 
 No additional installation required as creator has existing GitHub account.  
 
 **Audience setup:**
 - No setup or installation required.
-- Live link to visit the page via GitHub Pages available [here](https://aaliyahjv.github.io/eGain-swe "Sharp Point Coffee")
+- Live link to visit the page via GitHub Pages available [here](https://aaliyahjv.github.io/eGain-swe "Sharp Point Coffee").
 
 ## Brief explanation of your approach
 **Goal:** Implement a chatbot that addresses users' problems quickly and easily in a more natural language.
