@@ -5,6 +5,7 @@ body {
     font-size: 16px;
 }
 
+/* For chat button */
 .chat-button {
     color: black;
     background-color: #bb128fbf;
@@ -23,11 +24,13 @@ body {
     transform: rotate(180deg);
 }
 
+/* For message icon in chat button */
 chat-button .fa-regular {
     color: black;
     margin-right: 5px;
 }
 
+/* For chat container */
 .chat-container {
     background: white;
     position: fixed;
@@ -43,6 +46,7 @@ chat-button .fa-regular {
     display: none;
 }
 
+/* For chat title in container */
 .chat-title {
     font-weight: bold;
     color: #bb128f;
@@ -51,11 +55,13 @@ chat-button .fa-regular {
     margin-bottom: 10px;
 }
 
+/* For message icon in chat title */
 chat-title .fa-regular {
     color: #bb128f;
     margin-right: 10px;
 }
 
+/* For chat box in container */
 .chat-box {
     height: 300px;
     overflow-y: auto;
@@ -67,6 +73,7 @@ chat-title .fa-regular {
     flex-direction: column;
 }
 
+/* For message bubbles in chat box */
 .message-wrapper {
     display: flex;
 }
@@ -93,7 +100,6 @@ chat-title .fa-regular {
     color: black;
     background-color: #bb128f80;
     line-height: 1.4;
-
     max-width: 80%;
     padding: 10px 14px;
     border-radius: 18px;
@@ -102,6 +108,29 @@ chat-title .fa-regular {
     display: inline-block;
 }
 
+/* For suggestion buttons */
+.suggestions-container {
+    gap: 8px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.suggestion-btn {
+    font-size: 14px;
+    background-color: #bb128f80;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+.suggestion-btn:hover {
+    background-color: #bb128f;
+}
+
+/* For input (text input and send button) */
 .input-row {
     width: 100%;
     gap: 6px;
