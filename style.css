@@ -6,74 +6,65 @@ body {
 }
 
 .chat-button {
+    color: black;
+    background-color: #bb128fbf;
     position: fixed;
     bottom: 30px;
     right: 0;
-    background-color: #bb128fbf;
+    width: 30px;
+    height: 120px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-left: none;
-    color: black;
-    width: 30px;
-    height: 120px;
     border-radius: 0;
     cursor: pointer;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
 
-.fa-regular {
+chat-button .fa-regular {
     color: black;
     margin-right: 5px;
 }
 
 .chat-container {
-    width: 400px;
     background: white;
-    border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    padding: 20px;
     position: fixed;
     bottom: 30px;
     right: 34px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .hidden {
     display: none;
 }
 
+.chat-title {
+    font-weight: bold;
+    color: #bb128f;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+chat-title .fa-regular {
+    color: #bb128f;
+    margin-right: 10px;
+}
+
 .chat-box {
     height: 300px;
     overflow-y: auto;
-    border: 1px solid #ddd;
     padding: 10px;
+    border: 1px solid #ddd;
     margin-bottom: 10px;
+    margin: 2px 0;
     display: flex;
     flex-direction: column;
-    margin: 2px 0;
-}
-
-.bot {
-    background-color: #0000001f; /* Default background for bubbles */
-    border-radius: 15px;
-    border-bottom-left-radius: 0;
-    padding: 10px 15px;
-    max-width: 70%;
-    margin-bottom: 10px;
-    color: #333;
-    
-}
-
-.user {
-    max-width: 80%;
-    padding: 10px 14px;
-    border-radius: 18px;
-    line-height: 1.4;
-    display: inline-block;
-    background-color: #bb128f80;
-    color: black;
-    border-bottom-right-radius: 0;
 }
 
 .message-wrapper {
@@ -88,23 +79,46 @@ body {
     justify-content: flex-start;
 }
 
+.bot {
+    color: #333;
+    background-color: #0000001f; /* Default background for bubbles */
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    margin-bottom: 10px;   
+}
+
+.user {
+    color: black;
+    background-color: #bb128f80;
+    line-height: 1.4;
+
+    max-width: 80%;
+    padding: 10px 14px;
+    border-radius: 18px;
+    border-bottom-right-radius: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
 .input-row {
-    display: flex;
     width: 100%;
     gap: 6px;
+    display: flex;
 }
 
 .user-input {
-    flex: 1;
     padding: 8px;
-    border-radius: 0;
     border: 1px solid #ddd;
+    border-radius: 0;
+    flex: 1;
 }
 
 .send-button {
-    padding: 8px 12px;
-    background-color: #bb128f;
     color: white;
+    background-color: #bb128f;
+    padding: 8px 12px;
     border: none;
     cursor: pointer;
 }
